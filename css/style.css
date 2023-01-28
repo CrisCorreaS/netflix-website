@@ -27,7 +27,7 @@ nav{
     align-items: center; /* El contenido de las flexbox se centra */
     /* El logo pasa a estar a la izquierda y los botones a la derecha porque hay un espacio entre ellos, ya que el logo
     es un elemento y los botones como están en el mismo div, son otro elemento conjunto*/
-    justify-content: space-between; 
+    justify-content: space-between;
     padding: 10px 0; /* Para arriba y abajo 10px y para derecha e izquierda 0% */
 }
 .logo{
@@ -59,7 +59,7 @@ nav button{
 }
 .contenido-headder{
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Hace que se quede en medio ya que contrasta el top 50% y el left 50% */
     text-align: center;
@@ -127,4 +127,70 @@ nav button{
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 20px;
+}
+/* -------------------------------------EMPEZAMOS CON LAS FAQ Y LA INFORMACIÓN -------------------------------- */
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.acordeon{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.acordeon li{
+    list-style: none; /* Así definimos que la lista no tiene propiedades o parámetros a definir */
+    width: 100%;
+    padding: 5px;
+}
+.acordeon li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{ /* Añadimos este pseudo elemento para crear el + a la derecha de todos los botones */
+    content: '+'; /* Aquí ponemos lo que añadimos */
+    font-size: 34px; /* La letra que utilizamos */
+    position: absolute;
+    right: 25px; /* Hacia donde está colocada */
+    /* Aquí añadimos una transición para que cuando seleccionemos la caja, el símbolo + cambie en 0.5 segundos y no de golpe */
+    transition: transform 0.5s;
+}
+input[type="radio"]{ /* Seleccionamos los botones tipo radio de nuestras faq */
+    display: none; /* Los ocultamos */
+}
+.acordeon .contenido{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0; /* Si ponemos esto, estará oculto ya que no tendrá altura para enseñarse */
+    overflow: hidden;
+    /* Poniendo esto, hacemos que la transición entre hacer click en una de las preguntas y otra, lleve los segundos
+    que escribimos (0.3) y no se haga de forma brusca, haciendo una pequeña transición */
+    transition: max-height 0.5s, padding 0.5s;
+}
+/* Ahora vamos a seleccionar el botón radio que habíamos escondido, añadimos la pseudoclase (:checked)
+   que especifica el estado especial en el que se encuentra el elemento (cuando hacemos click en el botón)
+    y añadimos "+ label + .contenido" entre símbolos + (son combinadores de hermanos adyacentes) que indican que
+    solo ocurre cuando el elemento del botón va inmediatamente antes de una etiqueta label y de una clase
+    contenido. Si coinciden todas esas condiciones se aplican las siguientes condiciones css:*/
+.acordeon input[type="radio"]:checked + label + .contenido{
+    max-height: 800px;
+    padding: 30px 30px;
+}
+/* Ahora, seleccionamos lo mismo pero con la condición que después de que esté con el check, es decir, si y solo si
+   está con el check sucede lo siguiente: */
+.acordeon input[type="radio"]:checked+label::after{
+    transform: rotate(135deg); /* Hacemos que el símbolo + rote 135 grados al pulsar en una de las preguntas. Se convierte en una x */
 }
