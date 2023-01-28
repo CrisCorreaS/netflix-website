@@ -1,0 +1,99 @@
+*{
+    font-family: 'Poppins', sans-serif; /* Tipografía de letra de toda la página */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black; /* Color del fondo negro */
+    color: white; /* Color de las letras blanco */
+}
+.header{
+    width: 100%;
+    height: 100vh; /* Utilizo vh para que sea una página más responsive */
+    /* Añadimos la imagen pero con un poco de transparencia. Normalmente linear-gradient se usa para ir de un color
+    a otro (de arriba a abajo si se deja por defecto) y hacer una transición. Aquí usamos rgba que es como el código
+    de color rgb, pero la "a" (alpha) es la opacidad que va de 1 (opaco) a 0 (transparente). Con esto hago que la
+    imagen sea un poco transparente y más oscura, ya que en rgb (0,0,0) significa negro */
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)), url(/img/index/header.jpg);
+    background-size: cover; /* Hace que se guarde la escala que tiene por defecto la imagen y su relación aspecto intrínseca */
+    background-position: center; /* Centramos la imagen */
+    padding: 10px 8%; /* Para arriba y abajo 10px y para derecha e izquierda 8% */
+    position: relative;
+}
+nav{
+    display: flex; /* Hago que el contenido del nav sea horizontal en vez de vertical ajustándolas */
+    align-items: center; /* El contenido de las flexbox se centra */
+    /* El logo pasa a estar a la izquierda y los botones a la derecha porque hay un espacio entre ellos, ya que el logo
+    es un elemento y los botones como están en el mismo div, son otro elemento conjunto*/
+    justify-content: space-between; 
+    padding: 10px 0; /* Para arriba y abajo 10px y para derecha e izquierda 0% */
+}
+.logo{
+    width: 150px;
+    cursor: pointer; /* El ratón se vuelve una mano indicando que al pinchar en el logo te lleva a un link */
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: rgb(219, 0, 1); /* Color de los botones */
+    color: white; /* Color de la letra los botones */
+    font-size: 12px; /* Tamaño de letra de los botones */
+    font-weight: bold;
+    border-radius: 4px; /* Redondea las esquinas para que sean cuadrados redondeados */
+    padding: 7px 20px;
+    margin-left: 8px; /* Hacemos que haya un espacio entre los botones */
+    cursor: pointer;
+}
+.idioma{
+    display: inline-flex; /* Hace que se alineen los elementos (verticalmente) del botón a la misma altura en el centro */
+    align-items: center; /* Alineamos horizontalmente el texto y la imagen en el centro del botón */
+    background: transparent; /* Hacemos que no tenga color el botón y que por defecto sea negro como el fondo */
+    border: 1px solid white; /* Ahora el botón aunque es transparente tiene un borde blanco que lo delimita */
+    padding: 7px 10px;
+}
+.idioma img{ /* Ahora ajustamos la imagen del botón de idioma */
+    width: 10px;
+    margin-left: 10px;
+}
+.contenido-headder{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* Hace que se quede en medio ya que contrasta el top 50% y el left 50% */
+    text-align: center;
+    margin-top: 100px;
+}
+.contenido-headder h1{
+    font-size: 60px;
+    line-height: 70px; /* Establece la distancia de los otros textos */
+    font-weight: 600;
+    max-width: 650px; /* Hace que la letra no pueda ser más ancha que el valor establecido: 650px */
+}
+.contenido-headder h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.entrada-mail{
+    background: white;
+    border-radius: 4px;
+    display: flex; /* Para el diseño responsive */
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden; /* Cuando escribes el mail y es muy largo, te deja seguir escribiendo pero dejas de ver las primeras letras a medida que escribes */
+}
+.entrada-mail input{
+    flex: 1; /* Esto hace que crezca a medida que se amplia la ventana, es para el diseño responsive */
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.entrada-mail button {
+    background-color: rgb(219, 0, 1);
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px; /* Centramos el texto */
+}

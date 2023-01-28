@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Website Clone</title>
+    <link rel="stylesheet" href="./css/style.css"><!-- Aplico css externo -->
 </head>
 <body>
+    <div class="header"> <!-- Creamos la cabecera en donde van los primeros botones y el mensaje de bienvenida -->
+        <nav>
+            <img src="./img/logo.png" alt="NetflixLogo" class="logo">
+            <div>
+                <button class="idioma">Español<img src="img/down-icon.png"></button>
+                <button>Iniciar sesión</button>
+            </div>
+        </nav>
+        <div class="contenido-headder">
+            <h1>Todas las películas y series que desees, y mucho más.</h1>
+            <h3>Disfruta donde quieras. Cancela cuando quieras.</h3>
+            <p>¿Quieres ver algo ya? Escribe tu dirección de correo para crear una suscripción a Netflix o reactivarla.</p>
+            <form class="entrada-mail">
+                <input type="email" placeholder="Dirección de correo" required>
+                <button type="submit">Empezar</button>
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>
