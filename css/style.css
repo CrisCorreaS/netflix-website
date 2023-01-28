@@ -114,13 +114,14 @@ nav button{
     flex-basis: 50%; /* En el flexbox establece el tamaño del contenido según la pantalla */
     margin-bottom: 20px;
 }
-.columna-imgagen{
+.columna-imagen{
     flex-basis: 50%;
     margin-bottom: 20px;
 }
-.columna-imgagen img{
+.columna-imagen img{
     display: block; /* La imagen ahora tiene un cuadro de bloque */
-    width: 50%;
+    height: auto;
+    width: 90%;
     margin: auto;
 }
 .elementos h2{
