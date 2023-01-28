@@ -8,6 +8,7 @@ body{
     background: black; /* Color del fondo negro */
     color: white; /* Color de las letras blanco */
 }
+/* --------------------------------EMPEZAMOS CON EL HEADER----------------------------------------------------------- */
 .header{
     width: 100%;
     height: 100vh; /* Utilizo vh para que sea una página más responsive */
@@ -15,11 +16,11 @@ body{
     a otro (de arriba a abajo si se deja por defecto) y hacer una transición. Aquí usamos rgba que es como el código
     de color rgb, pero la "a" (alpha) es la opacidad que va de 1 (opaco) a 0 (transparente). Con esto hago que la
     imagen sea un poco transparente y más oscura, ya que en rgb (0,0,0) significa negro */
+    position: relative;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)), url(/img/index/header.jpg);
     background-size: cover; /* Hace que se guarde la escala que tiene por defecto la imagen y su relación aspecto intrínseca */
     background-position: center; /* Centramos la imagen */
     padding: 10px 8%; /* Para arriba y abajo 10px y para derecha e izquierda 8% */
-    position: relative;
 }
 nav{
     display: flex; /* Hago que el contenido del nav sea horizontal en vez de vertical ajustándolas */
@@ -66,9 +67,9 @@ nav button{
 }
 .contenido-headder h1{
     font-size: 60px;
-    line-height: 70px; /* Establece la distancia de los otros textos */
     font-weight: 600;
     max-width: 650px; /* Hace que la letra no pueda ser más ancha que el valor establecido: 650px */
+    line-height: 70px; /* Establece la distancia de los otros textos */
 }
 .contenido-headder h3 {
     font-weight: 400;
@@ -76,8 +77,8 @@ nav button{
 }
 .entrada-mail{
     background: white;
-    border-radius: 4px;
     display: flex; /* Para el diseño responsive */
+    border-radius: 4px;
     align-items: center;
     margin-top: 30px;
     overflow: hidden; /* Cuando escribes el mail y es muy largo, te deja seguir escribiendo pero dejas de ver las primeras letras a medida que escribes */
@@ -94,6 +95,36 @@ nav button{
     outline: 0;
     color: white;
     font-size: 16px;
-    cursor: pointer;
     padding: 15px 30px; /* Centramos el texto */
+    cursor: pointer;
+}
+/* ---------------------------EMPEZAMOS CON LOS ELEMENTOS DEL BODY---------------------------------------------------- */
+.elementos{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.fila{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.columna-texto{
+    flex-basis: 50%; /* En el flexbox establece el tamaño del contenido según la pantalla */
+    margin-bottom: 20px;
+}
+.columna-imgagen{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.columna-imgagen img{
+    display: block; /* La imagen ahora tiene un cuadro de bloque */
+    width: 50%;
+    margin: auto;
+}
+.elementos h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
