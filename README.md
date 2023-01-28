@@ -1,7 +1,7 @@
 # netflix-website
 Clon de Netflix usando HTML y CSS
 
-Este es un proyecto para la asignatura de "Lenguajes de marcas y sistemas de gestión de la información" que estoy estudiando durante el curso 2022/2023. Únicamente utilizare HTML y CSS ya que mi profesora ha descartado el uso de JS, Python o cualquier otro programa de programación. Seguramente, en el futuro haré una versión de esta página utilizando otras tecnologías.
+Este es un proyecto para la asignatura de "Lenguajes de marcas y sistemas de gestión de la información" que estoy estudiando durante el curso 2022/2023. Únicamente utilizaré HTML y CSS ya que mi profesora ha descartado el uso de JS, Python o cualquier otro programa de programación. Seguramente, en el futuro haré una versión de esta página utilizando otras tecnologías.
 
 Todo el código estará comentado con pequeñas aclaraciones explicativas. 
 
