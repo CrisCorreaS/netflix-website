@@ -7,4 +7,4 @@ Todo el código estará comentado con pequeñas aclaraciones explicativas.
 
 Tanto las imágenes como los logos serán las de la propia web de Netflix España (https://www.netflix.com/es/) por lo que NO ME PERTENECEN sus derechos y las utilizo únicamente con un fin educativo y de investigación para mejorar como programadora intentando abarcar nuevos proyectos.
 
-Este proyecto surge de mi admiración por Netflix y de sus servicios, ya que su página web me ha encantado y me apetece mucho retarme a mí misma intentando recrearla a mi manera.
+Esta idea surge de mi admiración por Netflix y de sus servicios, ya que su página web me ha encantado con su estética minimalista y me apetece mucho retarme a mí misma intentando recrearla a mi manera.
