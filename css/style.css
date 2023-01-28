@@ -194,3 +194,114 @@ input[type="radio"]{ /* Seleccionamos los botones tipo radio de nuestras faq */
 .acordeon input[type="radio"]:checked+label::after{
     transform: rotate(135deg); /* Hacemos que el símbolo + rote 135 grados al pulsar en una de las preguntas. Se convierte en una x */
 }
+.faq .entrada-mail{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 13px;
+}
+/* --------------------------------FOOTER--------------------------------------------------------- */
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .columna{
+    flex-basis: 25%; /* Determinamos el tamaño de la caja de contenidos en un 25% cada columna, haciendo que se pongan de forma horizontal repartiéndose entre las cuatro el espacio */
+    flex-grow: 1;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+.footer .columna a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .fila{
+    align-items: flex-start; /* Así todos los elementos empiezan desde el mismo punto y no están centrados en su propia flexbox */
+    padding: 10px 0;
+}
+.footer .idioma{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.texto-copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* -----------------------ARREGLOS DE CSS PARA PANTALLAS PEQUEÑAS--------------------------------------------------------------- */
+/* Esto es para las pantallas que sean menores de 600px */
+@media only screen and (max-width:600px){
+    /* -----------------------ARREGLOS DEL HEADER--------------------------------------- */
+    .logo{
+        width: 100px;
+    }
+    nav button{
+        padding: 5px 10px;
+    }
+    nav .idioma{
+        padding: 4px 8px;
+    }
+    .contenido-headder{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+    .contenido-headder h1{
+        font-size: 30px;
+    }
+    .entrada-mail button{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    /* -------------------------ARREGLOS PARA LOS ELEMENTOS--------------------------------- */
+    .columna-texto, .columna-imgagen{
+        flex-basis: 100%;
+    }
+    .elementos h2{
+        font-size: 30px;
+    }
+    .elementos p{
+        font-size: 15px;
+    }
+    /* Seleccionamos los elementos que van dentro de la etiqueta con clase "fila" con su pseudoclase 
+        de css ":nth child()" las posiciones 2 y 4, es decir, las etiquetas div con clase "fila" pares
+        (hay solo 4 div con clase "fila")  */
+    .fila:nth-child(2),.fila:nth-child(4){
+        /* Como estamos tratando a las etiquetas div con clase "fila" como flexbox, usando la propiedad
+        flex-direction, elegimos cómo sus elementos se posicionan. Con "column-reverse" lo que hacemos es
+        que el elemento inicial (<div class="columna-imagen">) sea el elemento final ahora, y que el elemento
+        final anterior (<div class="columna-texto">) sea el elemento inicial. Esto lo hacemos para que al 
+        hacer scroll en una pantalla pequeña, siempre se vea primero el texto y luego la imagen, si no lo 
+        pusiéramos, los elementos se verían: texto, imagen, imagen, texto, texto, imagen, imagen, texto.
+        Y ahora se ven: texto, imagen, texto, imagen, texto, imagen, texto, imagen */
+        flex-direction: column-reverse;
+    }
+    .elementos .fila{
+        padding: 10px 0;
+    }
+    /* -----------------------------------ARREGLOS PARA FAQ E INFORMACIÓN------------------------------ */
+    .faq h2{
+        font-size: 20px;
+    }
+    .acordeon .contenido{
+        font-size: 14px;
+    }
+    .acordeon li label{
+        padding: 10px;
+        font-size: 14px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+}
