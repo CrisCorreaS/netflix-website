@@ -107,6 +107,10 @@ nav button{
     display: flex;
     width: 100%;
     align-items: center;
+    /* Poniendo esto, si los elementos no caben en la anchura del contenedor,
+        se creará una nueva línea automáticamente y se continuará colocando los
+        elementos en ella. Sin esta propiedad, los elementos se ajustarían a una
+        sola línea y se reducirían automáticamente para caber en el contenedor. */
     flex-wrap: wrap;
     padding: 50px 0;
 }
@@ -225,6 +229,9 @@ input[type="radio"]{ /* Seleccionamos los botones tipo radio de nuestras faq */
     color: #777;
     font-size: 14px;
     margin-bottom: 10px;
+}
+.footer .columna a:hover {
+    text-decoration: underline;
 }
 .footer .fila{
     align-items: flex-start; /* Así todos los elementos empiezan desde el mismo punto y no están centrados en su propia flexbox */
