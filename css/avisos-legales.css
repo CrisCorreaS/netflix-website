@@ -148,7 +148,7 @@ nav button {
 
 .texto p{
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 350;
     color: black;
     margin-bottom: 40px;
 }
@@ -171,10 +171,48 @@ nav button {
 
 .texto h4{
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 500;
     color: #221f1f;
     margin-bottom: 50px;
     margin-top: -20px;
 }
 
-/* -----------------------FOOTER--------------- */
+/* -----------------------------------FOOTER------------------------- */
+.footer {
+    padding: 50px 6% 80px;
+    background-color: black;
+    color:#777;
+}
+
+.footer .idioma {
+    display: inline-flex;
+    align-items: center;
+    color:#777;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px 20px;
+    border: solid 1px #777;
+    border-radius: 3px;
+}
+
+.idioma img {
+    width: 10px;
+    margin-left: 80px;
+    opacity: 0.5;
+}
+
+.footer .fila a {
+    display: inline;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    flex-basis: 40%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    padding-left: 23px;
+}
+
+.footer .fila a:hover {
+    text-decoration: underline;
+}
