@@ -134,23 +134,34 @@ nav button {
   margin-right: -200px;
 }
 
-.texto p {
+.texto>p {
   font-size: 17px;
   font-weight: 350;
   color: black;
   margin-bottom: 20px;
 }
 
-.texto .info>p>b{
-  padding-bottom: 10px;
+.info p{
+  font-size: 17px;
+  font-weight: 350;
+  color: black;
+  padding-bottom: 5px;
+  padding-top: 15px;
 }
 
-.texto p a {
+.info pre{
+  font-size: 17px;
+  font-weight: 350;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.texto a {
   color: #e50914;
   text-decoration: none;
 }
 
-.texto p a:hover {
+.texto a:hover {
   text-decoration: underline;
 }
 
