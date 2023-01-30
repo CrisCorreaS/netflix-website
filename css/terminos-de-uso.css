@@ -69,8 +69,7 @@ nav {
 
 p {
   color: #e50914;
-  text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   transition: transform 0.5s;
 }
@@ -95,7 +94,7 @@ nav button {
   outline: 0;
   background: #e50914;
   color: white;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   border-radius: 4px;
   padding: 7px 20px;
@@ -121,7 +120,7 @@ nav button {
 .texto {
   padding: 5px 4%;
   text-align: justify;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .texto h1 {
@@ -140,20 +139,30 @@ nav button {
   margin-bottom: 40px;
 }
 
-.texto h3 {
-  font-size: 19px;
-  font-weight: 600;
-  color: #221f1f;
-  margin-bottom: 15px;
+ol{
+  padding-left: 3%;
 }
 
-.texto p a {
-  color: #e50914;
-  text-decoration: none;
+ol>li::marker {
+  font-weight:bolder;
+  font-size: 15px;
 }
 
-.texto p a:hover {
+.texto li>div>p {
+  margin-bottom: 20px;
+}
+
+.uno, .dos, .tres, .cuatro, .cinco, .seis{
+  margin-bottom: 40px;
+}
+
+u{
   text-decoration: underline;
+}
+
+.texto .num-romanos>p{
+  margin-bottom: 20px;
+  padding-left: 2%;
 }
 
 .texto h4 {
