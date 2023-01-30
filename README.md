@@ -10,3 +10,7 @@ Tanto las imágenes como los logos serán las de la propia web de Netflix Españ
 Esta idea surge de mi admiración por Netflix y de sus servicios, ya que su página web me ha encantado con su estética minimalista y me apetece mucho retarme a mí misma intentando recrearla a mi manera.
 
 28/01/2023 - Hice el index de la página de Netflix
+
+29/01/2023 - Hice la página de "avisos legales" que me servirá como plantilla para las siguientes ya que comparten los headers y los footers
+
+30/01/2023 - Hice la página de "términos de uso"
