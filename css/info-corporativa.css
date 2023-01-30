@@ -117,7 +117,7 @@ nav button {
   width: 30px;
 }
 
-/* -----------------------ARREGLOS DEL BODY TEXTO------------------------- */
+/* -----------------------BODY TEXTO------------------------- */
 .texto {
   padding: 5px 4%;
   text-align: justify;
@@ -165,7 +165,7 @@ nav button {
   text-decoration: underline;
 }
 
-/* -----------------------------------ARREGLOS DEL FOOTER------------------------- */
+/* -----------------------------------FOOTER------------------------- */
 .footer {
   padding: 50px 6% 80px;
   background-color: black;
@@ -242,7 +242,7 @@ nav button {
   .imprimir {
     display: none;
   }
-  /* -----------------------BODY CON INFO--------------------------------------- */
+  /* -----------------------ARREGLOS BODY CON INFO--------------------------------------- */
   .texto {
     padding-left: 12px;
     padding-right: 12px;
@@ -251,9 +251,12 @@ nav button {
   .texto h1 {
     font-size: 30px;
     font-weight: 700;
+    max-width: 650px;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: -10px;
+    margin-top: 10px;
+    padding-left: 4px;
+    margin-right: 0;
   }
 
   .texto p {
@@ -261,16 +264,19 @@ nav button {
     margin-bottom: 30px;
   }
 
-  .texto h3 {
-    font-size: 18px;
-    text-align: center;
+  .texto pre{
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    padding-left: 5px;
+    margin-right: 5px;
+    /* Esto es para que la etiqueta pre, haga saltos de línea si no cabe en el diseño */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
   }
 
-  .texto h4 {
-    font-size: 15px;
-    margin-top: -10px;
-  }
-  /* -----------------------FOOTER--------------------------------------- */
+  /* -----------------------ARREGLOS DEL FOOTER--------------------------------------- */
   .footer {
     padding: 20px 2% 50px;
   }

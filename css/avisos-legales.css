@@ -117,7 +117,7 @@ nav button {
   width: 30px;
 }
 
-/* -----------------------ARREGLOS DEL BODY TEXTO------------------------- */
+/* -----------------------BODY TEXTO------------------------- */
 .texto {
   padding: 5px 4%;
   text-align: justify;
@@ -164,7 +164,7 @@ nav button {
   margin-top: -20px;
 }
 
-/* -----------------------------------ARREGLOS DEL FOOTER------------------------- */
+/* -----------------------------------FOOTER------------------------- */
 .footer {
   padding: 50px 6% 80px;
   background-color: black;
@@ -241,7 +241,7 @@ nav button {
   .imprimir {
     display: none;
   }
-  /* -----------------------BODY CON INFO--------------------------------------- */
+  /* -----------------------ARREGLOS DEL BODY CON INFO--------------------------------------- */
   .texto {
     padding-left: 12px;
     padding-right: 12px;
@@ -269,7 +269,7 @@ nav button {
     font-size: 15px;
     margin-top: -10px;
   }
-  /* -----------------------FOOTER--------------------------------------- */
+  /* -----------------------ARREGLOS DEL FOOTER--------------------------------------- */
   .footer {
     padding: 20px 2% 50px;
   }
