@@ -57,3 +57,14 @@ nav .logo{
     background-color: #333;
     border-radius: 5px;
 }
+/* Esto es para que el color de lo que escribamos y se quede plasmado en el formulario sea con las
+letras en blanco */
+input, select,textarea {
+    color: white;
+}
+/* Esto es para que el color de lo que escribamos en el momento durante el que escribimos,
+sea con las letras en blanco */
+textarea:focus, input:focus {
+    color: white;
+}
+
