@@ -33,10 +33,10 @@ nav .logo{
     border-radius: 3px;
     align-self: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-left: 70px;
     padding-right: 70px;
-    margin: 2% 32% 50px 32%;
+    margin: 2% 32% 70px 32%;
 }
 
 .caja h2{
@@ -68,3 +68,46 @@ textarea:focus, input:focus {
     color: white;
 }
 
+.caja button{
+    border: none;
+    padding: 15px 35%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.caja .checkbox{
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+    font-size: 14px;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.recordar{
+    display: inline-flex;
+}
+
+.recordar label{
+    margin-left: 3px;
+}
+
+#checkbox1 {
+    accent-color: #b3b3b3; /* Esto hace que al hacer un click en check, podamos ver el chech en gris al ponerse el tick */
+}
+
+.caja .checkbox div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.caja .checkbox div p:hover {
+    text-decoration: underline;
+}
