@@ -14,3 +14,6 @@ Esta idea surge de mi admiración por Netflix y de sus servicios, ya que su pág
 29/01/2023 - Hice la página de "avisos legales" que me servirá como plantilla para las siguientes ya que comparten los headers y los footers
 
 30/01/2023 - Hice la página de "términos de uso" e "información corporativa"
+
+31/01/2023 - Hice un planning para distribuir las páginas web restantes y seguir aprendiendo más sobre HTML y CSS
+
