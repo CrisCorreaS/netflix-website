@@ -17,3 +17,5 @@ Esta idea surge de mi admiración por Netflix y de sus servicios, ya que su pág
 
 31/01/2023 - Hice un planning para distribuir las páginas web restantes y seguir aprendiendo más sobre HTML y CSS
 
+01/02/2023 - Hice la página de "cuenta"
+
