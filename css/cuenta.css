@@ -8,12 +8,14 @@
 body {
     color: white;
     background: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/cuenta/background.jpg);
 }
+
+/* --------------------------HEADER--------------------------------------------------------- */
 
 .contenido{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/cuenta/background.jpg);
 }
 
 nav .logo{
@@ -26,14 +28,18 @@ nav .logo{
     max-width: 500px;
 }
 
+/* ----------------------------CAJA DEL FORMULARIO------------------------------------------- */
+
 .caja{
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
+    width: 500px;
+    max-width: 800px;
     border-radius: 3px;
     align-self: center;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     padding-left: 70px;
     padding-right: 70px;
     margin: 2% 32% 70px 32%;
@@ -87,6 +93,7 @@ textarea:focus, input:focus {
     font-size: 14px;
     justify-content: space-between;
     margin: 10px 0px;
+    margin-bottom: 50px;
 }
 
 .recordar{
@@ -109,5 +116,29 @@ textarea:focus, input:focus {
 }
 
 .caja .checkbox div p:hover {
+    text-decoration: underline;
+}
+
+.caja .subscripcion p{
+    margin: 15px 0px 0 0px;
+    color: gray;
+}
+
+.caja .subscripcion p span{
+    color: white;
+    font-weight: 600;
+}
+
+.caja .subscripcion p+p{
+    font-size: 13px;
+}
+
+.caja .subscripcion a{
+    color: #0071eb;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.caja .subscripcion a:hover{
     text-decoration: underline;
 }
