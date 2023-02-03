@@ -19,3 +19,5 @@ Esta idea surge de mi admiración por Netflix y de sus servicios, ya que su pág
 
 01/02/2023 - Hice la página de "cuenta"
 
+03/02/2023 - Hice la página de "privacidad"
+
