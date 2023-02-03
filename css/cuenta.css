@@ -8,7 +8,7 @@
 body {
     color: white;
     background: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/cuenta/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/cuenta/background.jpg);
 }
 
 /* --------------------------HEADER--------------------------------------------------------- */
@@ -34,8 +34,9 @@ nav .logo{
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    width: 500px;
-    max-width: 800px;
+    width: 40%;
+    justify-content: center;
+    max-width: 600px;
     border-radius: 3px;
     align-self: center;
     padding-top: 50px;
@@ -141,4 +142,56 @@ textarea:focus, input:focus {
 
 .caja .subscripcion a:hover{
     text-decoration: underline;
+}
+
+/* ----------------------------------------FOOTER-------------------------------------------------------------- */
+
+footer{
+    padding: 50px 15% 10px;
+    color: #777;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 10%;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2%;
+    max-width: 900px;
+}
+
+footer ul{
+    /* Con estos dos elementos, conseguimos convertir las columnas de elementos li, a listas horizontales */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    height: 20vh;
+    padding: 0px 15px;
+}
+
+footer ul li{
+    font-size: 14px;
+    /* Con este elemento, asignamos el % que ocupa cada elemento en la flexbox */
+    width: 25%;
+    list-style: none; /* Esto le quita los puntos de lista ordenada a los elementos li */
+}
+
+footer .links a {
+    text-decoration: none;
+    color: #777;
+}
+
+footer .links a:hover{
+    text-decoration: underline;
+}
+
+
+/* -----------------------ARREGLOS DE CSS PARA PANTALLAS PEQUEÑAS--------------------------------------------------------------- */
+@media only screen and (max-width:600px) {
+    /* -----------------------ARREGLOS DEL HEADER--------------------------------------- */
+    nav .logo {
+        padding-left: 5%;
+        width: 33%;
+        }
+    
 }
