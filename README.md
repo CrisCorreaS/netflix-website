@@ -15,9 +15,11 @@ Esta idea surge de mi admiración por Netflix y de sus servicios, ya que su pág
 
 30/01/2023 - Hice la página de "términos de uso" e "información corporativa"
 
-31/01/2023 - Hice un planning para distribuir las páginas web restantes y seguir aprendiendo más sobre HTML y CSS
+31/01/2023 - Hice todos los diseños responsive a pantallas pequeñas menores de 600px de ancho
 
-01/02/2023 - Hice la página de "cuenta"
+01/02/2023 - Hice un planning para distribuir las páginas web restantes y seguir aprendiendo más sobre HTML y CSS
 
-03/02/2023 - Hice la página de "privacidad"
+03/02/2023 - Hice la página de "cuenta"
+
+04/02/2023 - Hice la página de "privacidad"
 
