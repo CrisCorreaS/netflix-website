@@ -164,8 +164,8 @@ footer ul{
     /* Con estos dos elementos, conseguimos convertir las columnas de elementos li, a listas horizontales */
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-    height: 20vh;
+    margin-bottom: 2%;
+    height: 10vh;
     padding: 0px 15px;
 }
 
@@ -188,10 +188,66 @@ footer .links a:hover{
 
 /* -----------------------ARREGLOS DE CSS PARA PANTALLAS PEQUEÑAS--------------------------------------------------------------- */
 @media only screen and (max-width:600px) {
-    /* -----------------------ARREGLOS DEL HEADER--------------------------------------- */
-    nav .logo {
-        padding-left: 5%;
-        width: 33%;
-        }
+    /* -----------------------ARREGLOS DEL HEADER Y BODY--------------------------------------- */
+    body{
+        background-image: none;
+    }
     
+    nav .logo {
+        padding-left: 3%;
+        padding-top: 3%;
+        width: 40%;
+    }
+
+    .caja {
+        width: 105%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%px;
+        margin: 2% 3% 2% 3%;
+    }
+
+    
+    .caja .form input {
+        padding: 15px;
+        margin-bottom: 3%;
+        }
+
+    .caja button {
+        padding: 15px 37%;
+    }
+
+    
+    .caja .subscripcion{
+        margin-top: -20px;
+    }
+    
+    .caja .subscripcion p span {
+        font-weight: 300;        
+    }
+
+    /* ---------------------------ARREGLOS FOOTER------------------- */
+    footer {
+        padding: 5% 7% 3%;
+        border-top: 2px solid #333;
+    }
+    
+    footer p {
+        font-size: 15px;
+        margin-bottom: 7%;
+    }
+    
+    footer ul {
+        margin-bottom: 5%;
+        padding: 0px;
+        height: 15vh;
+    }
+    
+    footer ul li {
+        font-size: 12px;
+        width: 50%;
+    }
+    
+
 }
