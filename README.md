@@ -3,7 +3,7 @@ Clon de Netflix usando HTML y CSS
 
 Este es un proyecto para la asignatura de "Lenguajes de marcas y sistemas de gestión de la información" que estoy estudiando durante el curso 2022/2023. Únicamente utilizaré HTML y CSS ya que mi profesora ha descartado el uso de JS, Python o cualquier otro programa de programación. Seguramente, en el futuro haré una versión de esta página utilizando otras tecnologías.
 
-Todo el código estará comentado con pequeñas aclaraciones explicativas. 
+Todo el código estará comentado con pequeñas aclaraciones explicativas. He adaptado el código a una pantalla de menos de 600 px de ancho y seguramente lo adaptaré a una pantalla grande.
 
 Tanto las imágenes como los logos serán las de la propia web de Netflix España (https://www.netflix.com/es/) por lo que NO ME PERTENECEN sus derechos y las utilizo únicamente con un fin educativo y de investigación para mejorar como programadora intentando abarcar nuevos proyectos.
 
