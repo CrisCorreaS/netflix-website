@@ -121,6 +121,7 @@ nav button {
   padding: 5px 4%;
   text-align: justify;
   font-size: 15px;
+  font-weight: 500;
 }
 
 .texto h1 {
@@ -135,7 +136,7 @@ nav button {
 .texto p {
   font-size: 17px;
   font-weight: 350;
-  color: black;
+  color: #221f1f;
   margin-bottom: 40px;
 }
 
@@ -143,8 +144,9 @@ nav button {
   font-size: 17px;
 }
 
-.texto .conjunto div+p+b{
-  font-size: 50px;
+h2{
+  font-size: 20px;
+  margin-bottom: -2%;
 }
 
 a{
@@ -159,10 +161,41 @@ a:hover{
 
 ul{
   padding-left: 6%;
+  /* Esto hace que el marker de la etiqueta ul en vez de estar por defecto como "outside" y todo el texto tenga
+    sangría desde el marker; que solo la primera línea tenga esa sangría y las demás no, por lo que están a la
+    misma altura que el marker */
+  list-style-position: inside;
+}
+
+.lista {
+  margin-top: -2%;
+  font-size: 17px;
+}
+
+.lista h3{
+  font-size: 17px;
+  /* Ponemos esto para que no se haga un salto de línea con el elemento h3. Si ponemos en CSS la etiqueta
+    h3 seguida de la etiqueta p en una etiqueta li global: <li><h3>...</h3><p>...</p></li> Seguirá haciendo 
+    un salto de línea, pero si quitamos la etiqueta p, ya no; el texto será continuado sin salto de línea  */
+  display: inline-block;
+  font-weight: 600;
+}
+
+.lista li{
+  margin-bottom: 3%;
+  margin-top: -1%;
+}
+
+.lista2{
+  margin-top: 2%;
 }
 
 .uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once{
-  margin-bottom: 50px;
+  margin-bottom: 4%;
+}
+
+.texto .tres ul li{
+  margin-bottom: 2%;
 }
 
 .texto h4 {
