@@ -292,20 +292,47 @@ ul{
   .texto h1 {
     font-size: 30px;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
     margin-top: -10px;
   }
 
   .texto p {
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 30px;
   }
+  
+  h2 {
+    margin-bottom: -1%;
+  }
 
-  /* Esto hace que todo, inclusive los números por defecto del ol, se muevan hacia la derecha
-    empezando ya desde los 15px */
-  ol{
-    padding-inline-start: 15px;
+  ul{
+    margin-bottom: 10%;
+    margin-top: -3%;
+  }
+  
+  .lista {      
+    margin-top: 2%;
+  }
+  
+  .lista li {
+    margin-top: 5%;
+  }
+
+  .lista2 ul li:nth-child(1){
+    margin-top: 10%;
+  }
+  
+  .uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once {
+    margin-bottom: 10%;
+  }
+
+  .texto h3{
+    display: inline;
+  }
+
+  .siete .lista h3 + p{
+    margin-top: 5%;
   }
 
   .texto h4 {
