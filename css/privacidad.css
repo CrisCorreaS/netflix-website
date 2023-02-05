@@ -124,8 +124,8 @@ nav button {
 }
 
 .texto h1 {
-  font-size: 35px;
-  font-weight: 800;
+  font-size: 40px;
+  font-weight: 750;
   max-width: 650px;
   line-height: 50px;
   margin-bottom: 30px;
@@ -139,31 +139,30 @@ nav button {
   margin-bottom: 40px;
 }
 
-ol{
-  padding-left: 3%;
+.texto .conjunto{
+  font-size: 17px;
 }
 
-/* Esto hace que el número del ol por defecto cambie y sea en negrita y un poco más grande */
-ol>li::marker {
-  font-weight:bolder;
-  font-size: 15px;
+.texto .conjunto div+p+b{
+  font-size: 50px;
 }
 
-.texto li>div>p {
-  margin-bottom: 20px;
+a{
+  color: #e50914;
+  text-decoration: none;
+  font-weight: 400;
 }
 
-.uno, .dos, .tres, .cuatro, .cinco, .seis{
-  margin-bottom: 40px;
-}
-
-u{
+a:hover{
   text-decoration: underline;
 }
 
-.texto .num-romanos>p{
-  margin-bottom: 20px;
-  padding-left: 2%;
+ul{
+  padding-left: 6%;
+}
+
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once{
+  margin-bottom: 50px;
 }
 
 .texto h4 {
