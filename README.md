@@ -23,3 +23,4 @@ Esta idea surge de mi admiración por Netflix y de sus servicios, ya que su pág
 
 04/02/2023 - Hice la página de "privacidad"
 
+05/02/2023 - Corregí pequeños fallos de código para que se asemeje más a la página de Netflix
