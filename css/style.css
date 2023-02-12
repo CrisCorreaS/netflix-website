@@ -143,17 +143,20 @@ nav button{
     font-weight: 500;
     font-size: 40px;
 }
-.acordeon{
+.acordeon {
     margin: 60px auto;
     width: 100%;
     max-width: 750px;
 }
-.acordeon li{
-    list-style: none; /* Así definimos que la lista no tiene propiedades o parámetros a definir */
+
+.acordeon li {
+    list-style: none;
+    /* Así definimos que la lista no tiene propiedades o parámetros a definir */
     width: 100%;
     padding: 5px;
 }
-.acordeon li label{
+
+.acordeon li label {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -164,17 +167,26 @@ nav button{
     cursor: pointer;
     position: relative;
 }
-label::after{ /* Añadimos este pseudo elemento para crear el + a la derecha de todos los botones */
-    content: '+'; /* Aquí ponemos lo que añadimos */
-    font-size: 34px; /* La letra que utilizamos */
+
+label::after {
+    /* Añadimos este pseudo elemento para crear el + a la derecha de todos los botones */
+    content: '+';
+    /* Aquí ponemos lo que añadimos */
+    font-size: 34px;
+    /* La letra que utilizamos */
     position: absolute;
-    right: 25px; /* Hacia donde está colocada */
+    right: 25px;
+    /* Hacia donde está colocada */
     /* Aquí añadimos una transición para que cuando seleccionemos la caja, el símbolo + cambie en 0.5 segundos y no de golpe */
     transition: transform 0.5s;
 }
-input[type="radio"]{ /* Seleccionamos los botones tipo radio de nuestras faq */
-    display: none; /* Los ocultamos */
+
+input[type="radio"] {
+    /* Seleccionamos los botones tipo radio de nuestras faq */
+    display: none;
+    /* Los ocultamos */
 }
+
 .acordeon .contenido{
     background: #303030;
     text-align: left;
