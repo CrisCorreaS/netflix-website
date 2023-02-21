@@ -143,7 +143,7 @@ ol{
   padding-left: 3%;
 }
 
-/* Esto hace que el número del ol por defecto cambie y sea en negrita y un poco más grande */
+/* Esto hace que el número por defecto del ol cambie y sea en negrita y un poco más grande */
 ol>li::marker {
   font-weight:bolder;
   font-size: 15px;

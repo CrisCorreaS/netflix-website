@@ -106,7 +106,7 @@ textarea:focus, input:focus {
 }
 
 #checkbox1 {
-    accent-color: #b3b3b3; /* Esto hace que al hacer un click en check, podamos ver el chech en gris al ponerse el tick */
+    accent-color: #b3b3b3; /* Esto consigue que al hacer un click en check, podamos ver el check en gris al ponerse el tick */
 }
 
 .caja .checkbox div p {

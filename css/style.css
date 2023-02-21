@@ -133,6 +133,14 @@ nav button{
     font-weight: 600;
     margin-bottom: 20px;
 }
+
+/* Se usa sobre la imagen 4 que es más grande que las otras, y se hace la selección
+    del atributo "alt" entre corchetes */
+img[alt="imagen4"]{
+    width: 70%;
+    max-width: 400px;
+}
+
 /* -------------------------------------EMPEZAMOS CON LAS FAQ Y LA INFORMACIÓN -------------------------------- */
 .faq{
     padding: 10px 12%;

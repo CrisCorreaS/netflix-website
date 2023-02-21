@@ -229,9 +229,11 @@ nav button {
     font-size: 0;
     padding: 0;
   }
+
   .subscripcion {
     display: none;
   }
+  
   /* -----------------------ARREGLOS DEL HEADER 2--------------------------------------- */
   p {
     font-size: 12px;
