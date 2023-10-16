@@ -1,4 +1,6 @@
 # netflix-website
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-FINALIZADO-violet) <br/>
+<br/>
 ¡Bienvenidos al repositorio del clon de Netflix!
 
 ## Descripción
