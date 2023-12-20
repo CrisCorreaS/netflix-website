@@ -1,33 +1,34 @@
-# netflix-website
+# Clon de Netflix
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-FINALIZADO-violet) <br/>
-<br/>
-¡Bienvenidos al repositorio del clon de Netflix!
+
+[![Imagen de la página principal del clon de Netflix](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/index.png)](https://criscorreas.github.io/netflix-website/)
+
+Este es un proyecto de HTML y CSS creado por **[Cristina Correa](https://www.linkedin.com/in/cristina-correa-segade/)**
 
 ## Descripción
 Este proyecto para la asignatura de *Lenguajes de marcas y sistemas de gestión de la información*, es un clon de la popular plataforma de streaming Netflix, desarrollado exclusivamente utilizando HTML y CSS. El objetivo principal de este proyecto es recrear la interfaz de usuario y la apariencia visual de Netflix, brindando a los usuarios una experiencia similar a la original.
 
 ## Vista previa
 
-Vista de la demo desplegada en GitHub Pages:
-[Página del clon de Netflix estático desplegado en GitHub Pages]()
+### **Vista de la demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/netflix-website/)**
 
-Vista previa de la página principal:
-![Vista previa de la página principal]()
+#### **Vista previa de la página principal:**
+![Vista previa de la página principal](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/index.png)
 
-Vista previa de la página de Avisos Legales:
-![Vista previa de la página de Avisos Legales]()
+#### **Vista previa de la página de Avisos Legales:**
+![Vista previa de la página de Avisos Legales](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/avisos-legales.png)
 
-Vista previa de la página del Login:
-![Vista previa de la página del Login]()
+#### **Vista previa de la página del Login:**
+![Vista previa de la página del Login](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/cuenta.png)
 
-Vista previa de la página de la Información Corporativa:
-![Vista previa de la página de la Información Corporativa]()
+#### **Vista previa de la página de la Información Corporativa:** 
+![Vista previa de la página de la Información Corporativa](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/info-corporativa.png)
 
-Vista previa de la página de Privacidad:
-![Vista previa de la página de Privacidad]()
+#### **Vista previa de la página de Privacidad:**
+![Vista previa de la página de Privacidad](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/privacidad.png)
 
-Vista previa de la página de Términos de Uso:
-![Vista previa de la página de Términos de Uso]()
+#### **Vista previa de la página de Términos de Uso:**
+![Vista previa de la página de Términos de Uso](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/terminos-de-uso.png)
 
 ## Características
 El clon de Netflix desarrollado en este proyecto presenta las siguientes características:
