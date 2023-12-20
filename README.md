@@ -6,6 +6,29 @@
 ## Descripción
 Este proyecto para la asignatura de *Lenguajes de marcas y sistemas de gestión de la información*, es un clon de la popular plataforma de streaming Netflix, desarrollado exclusivamente utilizando HTML y CSS. El objetivo principal de este proyecto es recrear la interfaz de usuario y la apariencia visual de Netflix, brindando a los usuarios una experiencia similar a la original.
 
+## Vista previa
+
+Vista de la demo desplegada en GitHub Pages:
+[Página del clon de Netflix estático desplegado en GitHub Pages]()
+
+Vista previa de la página principal:
+![Vista previa de la página principal]()
+
+Vista previa de la página de Avisos Legales:
+![Vista previa de la página de Avisos Legales]()
+
+Vista previa de la página del Login:
+![Vista previa de la página del Login]()
+
+Vista previa de la página de la Información Corporativa:
+![Vista previa de la página de la Información Corporativa]()
+
+Vista previa de la página de Privacidad:
+![Vista previa de la página de Privacidad]()
+
+Vista previa de la página de Términos de Uso:
+![Vista previa de la página de Términos de Uso]()
+
 ## Características
 El clon de Netflix desarrollado en este proyecto presenta las siguientes características:
 
