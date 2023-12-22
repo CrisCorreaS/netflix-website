@@ -44,7 +44,7 @@ Para utilizar este clon de Netflix, simplemente abre el archivo index.html en tu
 ¡Las contribuciones son bienvenidas! Si deseas mejorar el clon de Netflix existente, como agregar más contenido o mejorar el diseño, no dudes en enviar tus pull requests. También puedes sugerir nuevas funcionalidades o brindar retroalimentación para hacer que este proyecto sea aún mejor.
 
 ## Consideraciones legales
-Tanto las imágenes como los logos serán las de la propia web de Netflix España (https://www.netflix.com/es/) por lo que NO ME PERTENECEN sus derechos y las utilizo únicamente con un fin educativo y de investigación para mejorar como programadora intentando abarcar nuevos proyectos.
+Tanto las imágenes como los logos serán las de la propia web de Netflix España (https://www.netflix.com/es/) por lo que NO ME PERTENECEN sus derechos y las utilizo únicamente con un fin educativo y de investigación para mejorar como programadora intentando abarcar nuevos proyectos. Al ser este un clon de Netflix España, no se desplegará en GitHub Pages ya que no solo es una mala práctica desplegar clones de otras webs, sino que va en contra de las guías de Google (Más información: [Google Safe Browsing documentation on Social engineering (phishing and deceptive sites](https://developers.google.com/search/docs/monitor-debug/security/social-engineering?hl=en))
 
 ## Agradecimientos
 Quiero agradecer a Netflix por ser una fuente de inspiración para este proyecto y a la comunidad de desarrolladores por su apoyo y contribuciones. Este clon de Netflix no sería posible sin el esfuerzo colectivo de todos aquellos que han compartido su conocimiento y recursos en línea.
