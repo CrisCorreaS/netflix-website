@@ -1,7 +1,7 @@
 # Clon de Netflix
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-FINALIZADO-violet) <br/>
 
-[![Imagen de la página principal del clon de Netflix](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/index.png)](https://criscorreas.github.io/netflix-website/)
+![Imagen de la página principal del clon de Netflix](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/index.png)
 
 Este es un proyecto de HTML y CSS creado por **[Cristina Correa](https://www.linkedin.com/in/cristina-correa-segade/)**
 
@@ -9,8 +9,6 @@ Este es un proyecto de HTML y CSS creado por **[Cristina Correa](https://www.lin
 Este proyecto para la asignatura de *Lenguajes de marcas y sistemas de gestión de la información*, es un clon de la popular plataforma de streaming Netflix, desarrollado exclusivamente utilizando HTML y CSS. El objetivo principal de este proyecto es recrear la interfaz de usuario y la apariencia visual de Netflix, brindando a los usuarios una experiencia similar a la original.
 
 ## Vista previa
-
-### **Vista de la demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/netflix-website/)**
 
 #### **Vista previa de la página principal:**
 ![Vista previa de la página principal](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/index.png)
