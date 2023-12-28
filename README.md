@@ -1,5 +1,8 @@
 # Clon de Netflix
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-FINALIZADO-violet) <br/>
+![Badge Finalizado](https://img.shields.io/badge/STATUS-FINALIZADO-violet)
+<img align="right" alt="License MIT" src="https://img.shields.io/badge/LICENSE-MIT-green" /> <br/>
+<img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+<img alt="css3" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> <br/>
 
 ![Imagen de la página principal del clon de Netflix](https://github.com/CrisCorreaS/netflix-website/blob/main/img/visualizaci%C3%B3n-p%C3%A1gina/index.png)
 
